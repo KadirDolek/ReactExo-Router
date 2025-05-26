@@ -8,7 +8,6 @@ export default function Product1() {
 
   useEffect(() => {
     const timer = setTimeout(() => setCarte(false), 1700);
-    return () => clearTimeout(timer);
   }, []);
 
   return (
